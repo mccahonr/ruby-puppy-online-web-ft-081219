@@ -13,7 +13,7 @@ class Dog
   def self.print_all
     names_of_dogs = []
     @@all.each do |dogs|
-      @name << names_of_dogs
+      names_of_dogs.push(@name)
     end
     names_of_dogs
   end
