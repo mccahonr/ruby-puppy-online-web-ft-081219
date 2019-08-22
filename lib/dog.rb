@@ -13,5 +13,6 @@ class Dog
   def self.print_all
     @@all.each do |dogs|
       @name
+    end
   end
 end
